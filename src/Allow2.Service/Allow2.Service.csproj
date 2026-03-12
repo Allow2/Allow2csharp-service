@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Allow2.Service</RootNamespace>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet package metadata -->
+    <PackageId>Allow2.Service</PackageId>
+    <Version>2.0.0-alpha.1</Version>
+    <Authors>Allow2 Pty Ltd</Authors>
+    <Company>Allow2 Pty Ltd</Company>
+    <Description>Official Allow2 Parental Freedom Service SDK for .NET -- for web services with user accounts (ASP.NET, Blazor, etc.). Handles OAuth2 pairing, permission checking, requests, voice codes, and feedback via the Allow2 Service API.</Description>
+    <PackageTags>allow2;parental-freedom;parental;service-sdk;oauth2;permission</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://developer.allow2.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Allow2/Allow2CSharp-Service</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Copyright 2017-2026 Allow2 Pty Ltd. All rights reserved.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
