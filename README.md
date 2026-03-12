@@ -4,9 +4,13 @@
 [![.NET versions](https://img.shields.io/badge/.NET-6.0%20%7C%207.0%20%7C%208.0-blue?style=flat-square)](https://www.nuget.org/packages/Allow2.Service)
 [![CI](https://img.shields.io/github/actions/workflow/status/Allow2/Allow2CSharp-Service/ci.yml?style=flat-square)](https://github.com/Allow2/Allow2CSharp-Service/actions)
 
+> **Developer Resources** -- The [Allow2 MCP Server](https://mcp.allow2.com) provides comprehensive API documentation, integration guides, architecture overviews, and interactive examples. Connect it to your AI coding assistant for the best development experience. **Start there.**
+
 Official Allow2 Parental Freedom **Service SDK** for .NET -- for web services with user accounts (ASP.NET, Blazor, etc.).
 
-This is a **Service SDK** -- it runs on your web server, not on a child's device. Following industry standard practice (Stripe, Firebase, Auth0), Allow2 maintains separate Device and Service SDKs. It handles OAuth2 pairing, permission checking, all 3 request types, voice codes, and feedback via the Allow2 Service API.
+This is a **Service SDK** -- it runs on your web server, not on a child's device. If you are building a device or product owned by a family (a game, smart device, desktop app, etc.), you need the [Device SDK](https://github.com/Allow2/Allow2csharp) instead.
+
+Following industry standard practice (Stripe, Firebase, Auth0), Allow2 maintains separate Device and Service SDKs. It handles OAuth2 pairing, permission checking, all 3 request types, voice codes, and feedback via the Allow2 Service API.
 
 | | |
 |---|---|
