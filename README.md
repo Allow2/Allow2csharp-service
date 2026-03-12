@@ -2,7 +2,7 @@
 
 [![NuGet version](https://img.shields.io/nuget/v/Allow2.Service.svg?style=flat-square)](https://www.nuget.org/packages/Allow2.Service)
 [![.NET versions](https://img.shields.io/badge/.NET-6.0%20%7C%207.0%20%7C%208.0-blue?style=flat-square)](https://www.nuget.org/packages/Allow2.Service)
-[![CI](https://img.shields.io/github/actions/workflow/status/Allow2/Allow2CSharp-Service/ci.yml?style=flat-square)](https://github.com/Allow2/Allow2CSharp-Service/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/Allow2/Allow2csharp-service/ci.yml?style=flat-square)](https://github.com/Allow2/Allow2csharp-service/actions)
 
 > **Developer Resources** -- The [Allow2 MCP Server](https://mcp.allow2.com) provides comprehensive API documentation, integration guides, architecture overviews, and interactive examples. Connect it to your AI coding assistant for the best development experience. **Start there.**
 
